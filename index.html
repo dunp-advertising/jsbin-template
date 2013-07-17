@@ -24,11 +24,10 @@
 <script src="//cdn.jsdelivr.net/css3-mediaqueries/0.1/css3-mediaqueries.min.js"></script>
 <![endif]-->
 
-<!-- Load either Zepto or jQuery, as necessary, from a CDN with a local fallback -->
 <script>
-document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/'+
-	("__proto__"in{}?"zepto/1.0/zepto.min":"jquery/1.10.2/jquery.min")
-	+'.js"></script>');
+  document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/'+
+	("__proto__" in {}?"zepto/1.0/zepto.min":"jquery/1.10.2/jquery.min")+
+	'.js"><\/script>');
 </script>
 </head>
 
